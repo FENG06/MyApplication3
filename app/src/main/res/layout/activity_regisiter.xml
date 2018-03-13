@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/regist1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/layout_titlebar">
+
+    </include>
+
+    <!--<com.example.zhou.myapplication.View.ImageViewPlus-->
+        <!--android:id="@+id/layout_regist"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_below="@+id/include"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:src="@drawable/test_icon"-->
+        <!--app:rectRoundRadius="30dp"-->
+        <!--app:type="circle" />-->
+
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/layout_regist2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/layout_regist"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+            <!--style="@style/Widget.AppCompat.Button.Small"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="110dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:drawableLeft="@drawable/gender_male"-->
+            <!--android:text="男" />-->
+
+        <!--<Button-->
+            <!--style="@android:style/Widget.DeviceDefault.Button"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="95dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:drawableLeft="@drawable/gender_female"-->
+            <!--android:text="女" />-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_below="@+id/layout_regist2"-->
+        <!--android:layout_centerHorizontal="true">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/nickname"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="昵称"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:selectAllOnFocus="false"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:id="@+id/editText"-->
+            <!--android:layout_below="@+id/nickname" />-->
+
+    <!--</RelativeLayout>-->
+
+
+
+
+</RelativeLayout>
+
+
