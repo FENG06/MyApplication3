@@ -28,6 +28,9 @@ import com.example.zhou.myapplication.R;
  * @Date 2018/3/8
  */
 
+
+//测试一下git
+
 public class SearchView extends LinearLayout {
 
     /*
@@ -340,6 +343,8 @@ public class SearchView extends LinearLayout {
     private void insertData(String tempName) {
         db = helper.getWritableDatabase();
         db.execSQL("insert into records(name) values('" + tempName + "')");
+
+
     }
 
     /*
