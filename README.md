@@ -1,2 +1,2 @@
 # MyApplication3
-> 测试一下Gith
+> 测试一下Github
